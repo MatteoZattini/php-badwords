@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+
+<h1>Hello PHP World!</h1>
+
+<form action="elabora.php" method="GET" >
+    <input type="text" placeholder="Scrivi il tuo nome" name="nome">
+    <input type="text" placeholder="Scrivi il tuo cognome" name="cognome">
+    <button type="submit">Invia</button>
+</form>
     
 </body>
 </html>
