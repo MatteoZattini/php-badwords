@@ -13,6 +13,7 @@
     <input type="text" placeholder="Scrivi il tuo nome" name="nome">
     <input type="text" placeholder="Scrivi il tuo cognome" name="cognome">
     <input type="text" placeholder="Scrivi qualcosa da censurare" name="censura">
+    <textarea name="testolungo" placeholder="Scrivi qualcosa bannabile" id=""></textarea>
     <button type="submit">Invia</button>
 </form>
     

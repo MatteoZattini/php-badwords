@@ -2,8 +2,9 @@
     $nome = $_GET["nome"];
     $cognome = $_GET["cognome"];
     $censura = $_GET["censura"];
+    $testolungo = $_GET["testolungo"];
     $censurato = str_replace("$censura","***","$censura");
-    $nomecognome = $nome . " " . $cognome
+    $nomecognome = $nome . " " . $cognome;
 ?>
 
 <!DOCTYPE html>
@@ -25,5 +26,8 @@
     <h1><?php echo strlen($censura) ?></h1>
     <h1><?php echo str_replace("$censura","***","$censura") ?></h1>
     <h1><?php echo strlen($censurato) ?></h1>
+    <hr>
+    <h1><?php echo strlen($testolungo) ?></h1>
+    <h1><?php echo str_replace(["chiesa","dio"],"***","$testolungo") ?></h1>
 </body>
 </html>
