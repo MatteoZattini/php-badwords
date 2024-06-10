@@ -1,6 +1,8 @@
 <?php
     $nome = $_GET["nome"];
     $cognome = $_GET["cognome"];
+    $censura = $_GET["censura"];
+    $censurato = str_replace("$censura","***","$censura");
     $nomecognome = $nome . " " . $cognome
 ?>
 
@@ -19,5 +21,9 @@
     <h1>Hello, <?php echo ucfirst($nomecognome) ?></h1>
     <h1>Hello, <?php echo strlen($nome) , " " , strlen($cognome) ?></h1>
     <h1>Hello, <?php echo strlen($nomecognome) ?></h1>
+    <hr>
+    <h1><?php echo strlen($censura) ?></h1>
+    <h1><?php echo str_replace("$censura","***","$censura") ?></h1>
+    <h1><?php echo strlen($censurato) ?></h1>
 </body>
 </html>

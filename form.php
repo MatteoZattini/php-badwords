@@ -12,6 +12,7 @@
 <form action="elabora.php" method="GET" >
     <input type="text" placeholder="Scrivi il tuo nome" name="nome">
     <input type="text" placeholder="Scrivi il tuo cognome" name="cognome">
+    <input type="text" placeholder="Scrivi qualcosa da censurare" name="censura">
     <button type="submit">Invia</button>
 </form>
     
